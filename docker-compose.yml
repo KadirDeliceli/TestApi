@@ -3,6 +3,7 @@ version: '3.8'
 services:
   web:
     build: .
+    image: kadir-test-app
     container_name: kadir-compose-app
     ports:
       - "7000:80"
